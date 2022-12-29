@@ -10,7 +10,7 @@
   </style>
  </head>
            <body>
-  <p><input type="text" id="tx" value="巴啦啦小魔仙变身"></p>
+  <p><input type="text" id="tx" ></p>
            <button onclick="ctrlc()">复制</button>
 <p><input type="text" id="txf"><br></p>
         <p id="xs"></p >
@@ -18,7 +18,7 @@
    function ctrlc(){
     var content = document.getElementById("tx").value;
           document.getElementById("txf").value=content;
-          document.getElementById("xs").innerHTML="变身完成";
+          document.getElementById("xs").innerHTML="复制成功";
 		  }
   </script>
            </body>
